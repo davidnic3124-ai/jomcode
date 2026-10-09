@@ -1,0 +1,6 @@
+capacity_text = input("Capacity:")
+registered_text = input("Registered:")
+capacity = int(capacity_text)
+registered = int(registered_text)
+print(f"Remaining: {capacity - registered}")
+print(f"Percentage: {registered /capacity * 100:.2f}%")
